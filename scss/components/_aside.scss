@@ -1,0 +1,9 @@
+.aside {
+	background: red;
+	display: none;
+
+	@media #{$large} {
+		display: block;
+	}
+
+}
